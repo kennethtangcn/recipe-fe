@@ -12,7 +12,7 @@ var ng_bootstrap_1 = require("@ng-bootstrap/ng-bootstrap");
 var http_1 = require("@angular/http");
 var app_component_1 = require("./app.component");
 var home_component_1 = require("./home/home.component");
-// import { NavbarComponent } from './navbar/navbar.component';
+var navbar_component_1 = require("./navbar/navbar.component");
 var app_routing_module_1 = require("./app-routing.module"); // AppRoutingModule come last!
 var AppModule = (function () {
     function AppModule() {
@@ -32,6 +32,7 @@ AppModule = __decorate([
         declarations: [
             app_component_1.AppComponent,
             home_component_1.HomeComponent,
+            navbar_component_1.NavbarComponent
         ],
         providers: [],
         bootstrap: [

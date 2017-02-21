@@ -6,7 +6,7 @@ import { HttpModule }													from '@angular/http';
 
 import { AppComponent }												from './app.component';
 import { HomeComponent } 											from './home/home.component';
-// import { NavbarComponent } from './navbar/navbar.component';
+import { NavbarComponent } from './navbar/navbar.component';
  
 import { AppRoutingModule } from './app-routing.module'; // AppRoutingModule come last!
 
@@ -22,7 +22,7 @@ import { AppRoutingModule } from './app-routing.module'; // AppRoutingModule com
 	declarations: [
 		AppComponent,
 		HomeComponent,
-		// NavbarComponent
+		NavbarComponent
 	],
 	providers: [
 
