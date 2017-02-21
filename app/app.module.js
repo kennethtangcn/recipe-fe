@@ -13,6 +13,14 @@ var http_1 = require("@angular/http");
 var app_component_1 = require("./app.component");
 var home_component_1 = require("./home/home.component");
 var navbar_component_1 = require("./navbar/navbar.component");
+var recipes_component_1 = require("./recipes/recipes.component");
+var recipe_list_component_1 = require("./recipes/recipe-list/recipe-list.component");
+var recipe_item_component_1 = require("./recipes/recipe-list/recipe-item.component");
+var recipe_detail_component_1 = require("./recipes/recipe-detail/recipe-detail.component");
+var recipe_service_1 = require("./recipes/recipe.service");
+var shopping_list_component_1 = require("./shopping-list/shopping-list.component");
+var shopping_list_add_component_1 = require("./shopping-list/shopping-list-add.component");
+var shopping_list_service_1 = require("./shopping-list/shopping-list.service");
 var app_routing_module_1 = require("./app-routing.module"); // AppRoutingModule come last!
 var AppModule = (function () {
     function AppModule() {
@@ -32,9 +40,18 @@ AppModule = __decorate([
         declarations: [
             app_component_1.AppComponent,
             home_component_1.HomeComponent,
-            navbar_component_1.NavbarComponent
+            navbar_component_1.NavbarComponent,
+            recipes_component_1.RecipesComponent,
+            recipe_list_component_1.RecipeListComponent,
+            recipe_item_component_1.RecipeItemComponent,
+            recipe_detail_component_1.RecipeDetailComponent,
+            shopping_list_component_1.ShoppingListComponent,
+            shopping_list_add_component_1.ShoppingListAddComponent
         ],
-        providers: [],
+        providers: [
+            recipe_service_1.RecipeService,
+            shopping_list_service_1.ShoppingListService
+        ],
         bootstrap: [
             app_component_1.AppComponent
         ]
