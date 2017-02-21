@@ -16,6 +16,11 @@ var RecipeDetailComponent = (function () {
         this.sls = sls;
     }
     RecipeDetailComponent.prototype.ngOnInit = function () {
+        // this.recipeService.recipesChanged.subscribe(
+        //     (recipes: Recipe[]) => 
+        //     {this.selectedRecipe = recipes[this.recipeIndex];
+        //   }
+        // );
     };
     RecipeDetailComponent.prototype.onAddToShoppingList = function () {
         this.sls.addItems(this.selectedRecipe.ingredients);

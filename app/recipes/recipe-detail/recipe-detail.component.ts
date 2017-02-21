@@ -14,6 +14,12 @@ export class RecipeDetailComponent implements OnInit {
   constructor(private sls: ShoppingListService) {}
 
   ngOnInit() {
+    // this.recipeService.recipesChanged.subscribe(
+    //     (recipes: Recipe[]) => 
+    //     {this.selectedRecipe = recipes[this.recipeIndex];
+    //   }
+    // );
+    
   }
 
   onAddToShoppingList() {

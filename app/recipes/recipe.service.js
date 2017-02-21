@@ -14,11 +14,11 @@ var ingredients_1 = require("../shared/ingredients");
 var RecipeService = (function () {
     function RecipeService() {
         this.recipes = [
-            new recipe_1.Recipe('Schnitzel', 'Very tasty', 'http://images.derberater.de/files/imagecache/456xXXX_berater/berater/slides/WienerSchnitzel.jpg', [
+            new recipe_1.Recipe('Schnitzel', 'Very tasty', 'https://cdn.pbrd.co/images/B5sGWEHSJ.jpg', [
                 new ingredients_1.Ingredient('French Fries', 2),
                 new ingredients_1.Ingredient('Pork Meat', 1)
             ]),
-            new recipe_1.Recipe('Summer Salad', 'Okayish', 'http://ohmyveggies.com/wp-content/uploads/2013/06/the_perfect_summer_salad.jpg', [])
+            new recipe_1.Recipe('Summer Salad', 'Okayish', 'https://cdn.pbrd.co/images/B5ulyGSLj.jpg', [])
         ];
     }
     RecipeService.prototype.getRecipes = function () {
